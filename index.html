@@ -1,0 +1,428 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>朱共营技术博客 - POWERED BY WY ALL RIGHTS RESERVED</title>
+        <link type="text/css" href= "{{ url_for('static', filename = 'css/bootstrap.min.css') }}"  rel="stylesheet">
+        <link href= "{{ url_for('static', filename = 'css/style.css') }}" type="text/css" rel="stylesheet">
+        <link type="text/css" href= "{{ url_for('static', filename = 'css/nprogress.css') }}" rel="stylesheet">
+        <!--[if lt IE 9]><script src="js/html5shiv.min.js" type="text/javascript"></script><script src="js/respond.min.js" type="text/javascript"></script><script src="js/selectivizr-min.js" type="text/javascript"></script><![endif]-->
+        <link rel="apple-touch-icon-precomposed" href="../static/images/icon/icon.png" >
+        <link rel="shortcut icon" href="../static/images/icon/favicon.ico">
+        <meta name="Keywords" content=""/>
+        <meta name="description" content=""/>
+        <script type="text/javascript"></script>
+    </head>
+    <body>
+        <section class="container user-select">
+            <header>
+                <div class="hidden-xs header">
+                    <h1 class="logo">
+                        <a href="index.html" title="朱共营技术博客 - POWERED BY WY ALL RIGHTS RESERVED"></a>
+                    </h1>
+                    <ul class="nav hidden-xs-nav">
+                        <li class="active">
+                            <a href="index.html">
+                                <span class="glyphicon glyphicon-home"></span>
+                                网站首页
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span class="glyphicon glyphicon-user"></span>
+                                关于我们
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="visible-xs header-xs">
+                    <div class="navbar-header header-xs-logo">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#header-xs-menu" aria-expanded="false" aria-controls="navbar">
+                            <span class="glyphicon glyphicon-menu-hamburger"></span>
+                        </button>
+                    </div>
+                    <div id="header-xs-menu" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav header-xs-nav">
+                            <li class="active">
+                                <a href="index.html">
+                                    <span class="glyphicon glyphicon-home"></span>
+                                    网站首页
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html">
+                                    <span class="glyphicon glyphicon-user"></span>
+                                    关于我们
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+            <div class="content-wrap">
+                <div class="content">
+                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <a href="" target="_blank">
+                                    <img src="../static/images/img1.jpg" alt=""/>
+                                </a>
+                                <div class="carousel-caption">欢迎来到朱共营技术博客，在这里可以看到网站前端和后端的技术等</div>
+                                <span class="carousel-bg"></span>
+                            </div>
+                            <div class="item">
+                                <a href="" target="_blank">
+                                    <img src="../static/images/img2.jpg" alt=""/>
+                                </a>
+                                <div class="carousel-caption">欢迎来到朱共营技术博客，在这里可以看到网站前端和后端的技术等</div>
+                                <span class="carousel-bg"></span>
+                            </div>
+                            <div class="item">
+                                <a href="" target="_blank">
+                                    <img src="../static/images/img3.jpg" alt=""/>
+                                </a>
+                                <div class="carousel-caption">欢迎来到朱共营技术博客，在这里可以看到网站前端和后端的技术等</div>
+                                <span class="carousel-bg"></span>
+                            </div>
+                        </div>
+                        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <div class="content-block new-content">
+                        <h2 class="title">
+                            <strong>最新文章</strong>
+                        </h2>
+                        <div class="row">
+                            <div class="news-list">
+                                <div class="news-img col-xs-5 col-sm-5 col-md-4">
+                                    <a target="_blank" href="https://www.jianshu.com/p/0f975dbfdc2b">
+                                        <img src="../static/images/logo.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="news-info col-xs-7 col-sm-7 col-md-8">
+                                    <dl>
+                                        <dt>
+                                            <a href="https://www.jianshu.com/p/0f975dbfdc2b" target="_blank">Flutter 学习笔记</a>
+                                        </dt>
+                                        <dd>
+                                            <span class="name">
+                                                <a href="" title="由 朱共营 发布" rel="author">朱共营</a>
+                                            </span>
+                                            <span class="identity"></span>
+                                            <span class="time"> 2021.04.25 12:04</span>
+                                        </dd>
+                                        <dd class="text">使用命令行创建 Flutter 风格区分 重点部件 页面保持 插件 库</dd>
+                                    </dl>
+                                    <div class="news_bot col-sm-7 col-md-8">
+                                        <span class="tags visible-lg visible-md">
+                                            <a href="">本站</a>
+                                            <a href="">朱共营</a>
+                                        </span>
+                                        <span class="look">
+                                            共 <strong>116</strong>
+                                            人围观
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="news-list">
+                                <div class="news-img col-xs-5 col-sm-5 col-md-4">
+                                    <a target="_blank" href="https://www.jianshu.com/p/5cb5590fbca8">
+                                        <img src="../static/images/logo.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="news-info col-xs-7 col-sm-7 col-md-8">
+                                    <dl>
+                                        <dt>
+                                            <a href="https://www.jianshu.com/p/5cb5590fbca8" target="_blank">Mac 可执行脚本</a>
+                                        </dt>
+                                        <dd>
+                                            <span class="name">
+                                                <a href="" title="由 朱共营 发布" rel="author">朱共营</a>
+                                            </span>
+                                            <span class="identity"></span>
+                                            <span class="time"> 2021.04.25 12:04 </span>
+                                        </dd>
+                                        <dd class="text">制作一个可执行脚本， 给脚本添加可执行权限 *使用</dd>
+                                    </dl>
+                                    <div class="news_bot col-sm-7 col-md-8">
+                                        <span class="tags visible-lg visible-md">
+                                            <a href="">本站</a>
+                                            <a href="">朱共营</a>
+                                        </span>
+                                        <span class="look">
+                                            共 <strong>133</strong>
+                                            人围观
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="news-list">
+                                <div class="news-img col-xs-5 col-sm-5 col-md-4">
+                                    <a target="_blank" href="https://www.jianshu.com/p/6aa52610c11f">
+                                        <img src="../static/images/logo.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="news-info col-xs-7 col-sm-7 col-md-8">
+                                    <dl>
+                                        <dt>
+                                            <a href="https://www.jianshu.com/p/6aa52610c11f" target="_blank">Charles安装和配置HTTPS证书</a>
+                                        </dt>
+                                        <dd>
+                                            <span class="name">
+                                                <a href="" title="由 朱共营 发布" rel="author">朱共营</a>
+                                            </span>
+                                            <span class="identity"></span>
+                                            <span class="time"> 2020.10.01 11:18 </span>
+                                        </dd>
+                                        <dd class="text">1.安装说明 chares安装，可以直接去官网下载，也可以看我给的【参考链接】哈，在最下面。下载路径如下： 官网地址： www.charlesp...</dd>
+                                    </dl>
+                                    <div class="news_bot col-sm-7 col-md-8">
+                                        <span class="tags visible-lg visible-md">
+                                            <a href="">本站</a>
+                                            <a href="">朱共营</a>
+                                        </span>
+                                        <span class="look">
+                                            共 <strong>22992</strong>
+                                            人围观
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="news-list">
+                                <div class="news-img col-xs-5 col-sm-5 col-md-4">
+                                    <a target="_blank" href="https://www.jianshu.com/p/76f7889de470">
+                                        <img src="../static/images/logo.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="news-info col-xs-7 col-sm-7 col-md-8">
+                                    <dl>
+                                        <dt>
+                                            <a href="https://www.jianshu.com/p/76f7889de470" target="_blank">Redis 安装 及 使用</a>
+                                        </dt>
+                                        <dd>
+                                            <span class="name">
+                                                <a href="" title="由 朱共营 发布" rel="author">朱共营</a>
+                                            </span>
+                                            <span class="identity"></span>
+                                            <span class="time">2020.08.12 10:06 </span>
+                                        </dd>
+                                        <dd class="text">一、安装 首先保证电脑上有brew然后使用下面的命令安装即可 二、常用命令 1.启动redis服务 2.关闭redis服务 3.重启redis服...</dd>
+                                    </dl>
+                                    <div class="news_bot col-sm-7 col-md-8">
+                                        <span class="tags visible-lg visible-md">
+                                            <a href="">本站</a>
+                                            <a href="">朱共营</a>
+                                        </span>
+                                        <span class="look">
+                                            共 <strong>288</strong>
+                                            人围观
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="news-list">
+                                <div class="news-img col-xs-5 col-sm-5 col-md-4">
+                                    <a target="_blank" href="https://www.jianshu.com/p/edb325091670">
+                                        <img src="../static/images/logo.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="news-info col-xs-7 col-sm-7 col-md-8">
+                                    <dl>
+                                        <dt>
+                                            <a href="https://www.jianshu.com/p/edb325091670" target="_blank">Git 常用命令</a>
+                                        </dt>
+                                        <dd>
+                                            <span class="name">
+                                                <a href="" title="由 朱共营 发布" rel="author">朱共营</a>
+                                            </span>
+                                            <span class="identity"></span>
+                                            <span class="time"> 2020.08.09 23:55 </span>
+                                        </dd>
+                                        <dd class="text">打Tag 打tag - git tag -v 推送 git push origin --tags</dd>
+                                    </dl>
+                                    <div class="news_bot col-sm-7 col-md-8">
+                                        <span class="tags visible-lg visible-md">
+                                            <a href="">本站</a>
+                                            <a href="">朱共营</a>
+                                        </span>
+                                        <span class="look">
+                                            共 <strong>844</strong>
+                                            人围观
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="news-list">
+                                <div class="news-img col-xs-5 col-sm-5 col-md-4">
+                                    <a target="_blank" href="https://www.jianshu.com/p/5786eeb7f009">
+                                        <img src="../static/images/logo.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="news-info col-xs-7 col-sm-7 col-md-8">
+                                    <dl>
+                                        <dt>
+                                            <a href="https://www.jianshu.com/p/5786eeb7f009" target="_blank">iOS多线程知识总结</a>
+                                        </dt>
+                                        <dd>
+                                            <span class="name">
+                                                <a href="" title="由 朱共营 发布" rel="author">朱共营</a>
+                                            </span>
+                                            <span class="identity"></span>
+                                            <span class="time"> 2019.12.25 17:14 </span>
+                                        </dd>
+                                        <dd class="text">我只是一个搬运工，仅仅为了加深记忆，感谢作者分享，文章大部分来源:尚大大o_O 线程和进程 几乎所有的操作系统都支持同时运行多个任务，一个任务通...</dd>
+                                    </dl>
+                                    <div class="news_bot col-sm-7 col-md-8">
+                                        <span class="tags visible-lg visible-md">
+                                            <a href="">本站</a>
+                                            <a href="">朱共营</a>
+                                        </span>
+                                        <span class="look">
+                                            共 <strong>216</strong>
+                                            人围观
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="news-list">
+                                <div class="news-img col-xs-5 col-sm-5 col-md-4">
+                                    <a target="_blank" href="https://www.jianshu.com/p/30fc017ff060">
+                                        <img src="../static/images/logo.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="news-info col-xs-7 col-sm-7 col-md-8">
+                                    <dl>
+                                        <dt>
+                                            <a href="https://www.jianshu.com/p/30fc017ff060" target="_blank">iOS 加载进度之圆形加载</a>
+                                        </dt>
+                                        <dd>
+                                            <span class="name">
+                                                <a href="" title="由 朱共营 发布" rel="author">朱共营</a>
+                                            </span>
+                                            <span class="identity"></span>
+                                            <span class="time">2019.04.18 20:01 </span>
+                                        </dd>
+                                        <dd class="text">效果图 使用方法 核心代码 1、绘制圆 2、设置进度 注意事项 为防止 外界set 值过快， 导致 实际显示跟 值有差值，设定一个定时器定时去取...</dd>
+                                    </dl>
+                                    <div class="news_bot col-sm-7 col-md-8">
+                                        <span class="tags visible-lg visible-md">
+                                            <a href="">本站</a>
+                                            <a href="">朱共营</a>
+                                        </span>
+                                        <span class="look">
+                                            共 <strong>875</strong>
+                                            人围观
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="news-list">
+                                <div class="news-img col-xs-5 col-sm-5 col-md-4">
+                                    <a target="_blank" href="https://www.jianshu.com/p/f3920978f054">
+                                        <img src="../static/images/logo.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="news-info col-xs-7 col-sm-7 col-md-8">
+                                    <dl>
+                                        <dt>
+                                            <a href="https://www.jianshu.com/p/f3920978f054" target="_blank">UITextField 编辑时问题整理</a>
+                                        </dt>
+                                        <dd>
+                                            <span class="name">
+                                                <a href="" title="由 朱共营 发布" rel="author">朱共营</a>
+                                            </span>
+                                            <span class="identity"></span>
+                                            <span class="time"> 2019.04.13 10:47 </span>
+                                        </dd>
+                                        <dd class="text">1、自动撑满宽度 2、编辑时向左偏移 1、UITextField 一共有如下几个View 组成：UIFieldEditor、UITextFiel...</dd>
+                                    </dl>
+                                    <div class="news_bot col-sm-7 col-md-8">
+                                        <span class="tags visible-lg visible-md">
+                                            <a href="">本站</a>
+                                            <a href="">朱共营</a>
+                                        </span>
+                                        <span class="look">
+                                            共 <strong>1028</strong>
+                                            人围观
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="quotes" style="margin-top:15px">
+                            <span class="disabled">首页</span>
+                            <span class="disabled">上一页</span>
+                            <span class="current">1</span>
+                            <span class="disabled">下一页</span>
+                            <span class="disabled">尾页</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <aside class="sidebar visible-lg">
+                <div class="sentence">
+                    <strong>每日一句</strong>
+                    <h2 id="data-every-day">2015年11月1日 星期日</h2>
+                    <p id="say-str">你是我人生中唯一的主角，我却只能是你故事中的一晃而过得路人甲。</p>
+                    <script>
+                         function showCurrentDateTime() {
+                            const now = new Date();
+                            const year = now.getFullYear();
+                            const month = String(now.getMonth() + 1).padStart(2, '0'); // 月份是从0开始的，所以要+1
+                            const day = String(now.getDate()).padStart(2, '0');
+                            const weekIndex = now.getDay();
+                            var weekday = ["星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"];
+
+                            const formattedDateTime = `${year}年${month}月${day}日 ${weekday[weekIndex]}`;
+                            document.getElementById('data-every-day').textContent = formattedDateTime;
+                        }
+
+                         function showCurrentSay() {
+                             var sayArr = ["当你感到困惑时，不妨停下来，深呼吸，然后继续前行。",
+                                "每个人都有自己的时区，不要拿自己的时区去衡量别人的生活。",
+                                "生活不是等待风暴过去，而是学会在雨中跳舞。",
+                                "成功的关键在于始终保持一颗不屈不挠的心。",
+                                "用心灵去感知这个世界，用爱去感动这个世界。",
+                                "世界上最重要的事情是要不断地改变自己，要永远保持初学者的状态。",
+                                "生活不会因为你是谁而停止，所以，你也不应该停下前行的脚步。"];
+                             const now = new Date();
+                             const weekIndex = now.getDay();
+                             document.getElementById('say-str').textContent = sayArr[weekIndex];
+                         }
+                        showCurrentSay();
+                        showCurrentDateTime();
+
+                    </script>
+                </div>
+            </aside>
+            <footer class="footer">
+                POWERED BY &copy;<a href="https://www.suzukaze.top/">朱共营 SUZUKAZE.TOP</a>
+                ALL RIGHTS RESERVED &nbsp;&nbsp;&nbsp;
+                <span>
+                    <a href="https://beian.miit.gov.cn/" target="_blank">豫ICP备2023026063号-4</a>
+                </span>
+            </footer>
+        </section>
+        <div>
+            <a href="javascript:;" class="gotop" style="display:none;"></a>
+        </div>
+        <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
+        <script src="js/nprogress.js" type="text/javascript"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <script type="text/javascript"></script>
+    </body>
+</html>
